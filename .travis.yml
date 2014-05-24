@@ -13,6 +13,7 @@ install:
 # OpenERP does not specify the version of pyparsing and the later
 # version only work with py3k
   - pip install "pyparsing==1.5.7"
+  - pip install -U setuptools
   - pip install flake8
   - ./install_nightly.sh
   - pip install distribute
